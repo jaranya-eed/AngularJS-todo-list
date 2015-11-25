@@ -53,33 +53,31 @@
                         <div class="form-group col-sm-5">
                             <input type="text" class="form-control" ng-model="formTodoText" ng-model-instant>
                         </div>
-						<button type="submit" class="btn btn-warning" ng-click="cleartxt()">
-                        	<span class="glyphicon glyphicon-remove-sign"></span>
-                        	Clear
+			<button type="submit" class="btn btn-warning" ng-click="cleartxt()">
+                            <span class="glyphicon glyphicon-remove-sign"></span>
+                            Clear
                         </button>
                         <button type="submit" class="btn btn-success" ng-click="addTodo()">
-                        	<span class="glyphicon glyphicon-plus-sign"></span>
-                        	Add
+                            <span class="glyphicon glyphicon-plus-sign"></span>
+                            Add
                         </button>
                     </form>
                 </div>
                 
                 <div class="well">
-                	<button ng-click="clearCompleted()" class="btn btn-sm btn-danger">
-						<i class="glyphicon glyphicon-trash"></i><span> Remove</span>
-					</button>
-					<br>
-                	<ul>
-						<li ng-repeat="todo in todos">
-							<input type="checkbox" ng-model="todo.done"/>
-							<span class="done-{{todo.done}}">{{todo.text}}</span>
-						</li>
-					</ul>
+                    <button ng-click="clearCompleted()" class="btn btn-sm btn-danger">
+		        <span>Clear completed</span>
+		    </button>
+                    <ul>
+		        <li ng-repeat="todo in todos">
+			    <input type="checkbox" ng-model="todo.done"/>
+			    <span class="done-{{todo.done}}">{{todo.text}}</span>
+			</li>
+		    </ul>
                 </div>
             </div>
         </div>
         <!-- /.row -->
-
         <hr>
     </div>
     <!-- /.container -->
@@ -91,7 +89,7 @@
     <script src="js/bootstrap.min.js"></script>
     
     <script src='js/lib/underscore/underscore-min.js'></script>
-	<script src="js/lib/angular/angular.min.js"></script>
+    <script src="js/lib/angular/angular.min.js"></script>
     <script src="js/app.js"></script>
 </body>
 
