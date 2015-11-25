@@ -1,0 +1,28 @@
+/*!
+ * Start Bootstrap - Blog Post HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+ul {
+	margin-top: 5px;
+}
+
+li {
+	list-style: none;
+	padding: 5px;
+}
+
+.emphasis {
+    font-family: vast-shadow, sans-serif;
+    font-size: 1.5em;
+    color: red;
+}
+
+footer {
+    margin: 50px 0;
+}
